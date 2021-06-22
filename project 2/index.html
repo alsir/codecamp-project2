@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<title>survey form</title>
+</head>
+<body>
+	<h1 id="title">survey form</h1>
+	<p id="description"></p>
+	<form id="survey-form">
+		<label id="name-label">
+			<h2>Name</h2>
+			<input type="text" name="name" id="name" placeholder="Name">
+		</label>
+		<br>
+		<label id="email-label">
+			<h2>Email</h2>
+		<input type="email" name="email" id="email" placeholder="Email" >
+	    </label>
+	    <br>
+	    <label id="number-label">
+	    	<h2>Age</h2>
+		<input type="number" name="Age" id="number" placeholder="Age" min="10"
+		max="50">
+	    </label>
+	    <br>
+	    <div class="checkbox">
+	    	<h2 id="checkbox-title">type of movies you like:</h2>
+	        <label><input id="checkbox" type="checkbox" name="movies"> Fantasy</label>
+            <label><input id="checkbox" type="checkbox" name="movies">Drama</label>
+            <label><input id="checkbox" type="checkbox" name="movies">Comidy</label>
+        </div>
+	    <br>
+	    <button id="submit">submit</button>
+	</form>
+
+
+</body>
+</html>

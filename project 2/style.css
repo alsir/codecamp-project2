@@ -1,0 +1,61 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+form{
+	width:40%;
+	margin:25%;
+	margin-top: 5%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: gray;
+	border-radius: 10px;
+	padding:2% 5% 2% 5%;
+}
+#title{
+	text-align: center;
+	margin-top: 3%;
+}
+label{
+	width: 100%;
+}
+h2{
+	margin: 2% 1% 2% 1%;
+}
+#name , #number ,#email{
+	width: 100%;
+    height: 43px;
+    margin: 2%  0 2% 0;
+    border-radius: 10px;
+    border-style: none;
+    padding: 0 0 0 5%;
+}
+
+button{
+	width: 35%;
+	height: 50px;
+	border-radius: 25px;
+    border-style: none;
+    font-size: 1.1rem;
+}
+.checkbox input{
+	margin: 5% 10%;
+}
+#checkbox-title h2{
+	text-align: left;
+	
+}
+@media (max-width: 600px){
+	form{
+	width:70%;
+	margin:10%;
+	margin-top: 6%; 
+	padding: 5%;
+	}
+	#name , #number ,#email{
+		margin: 0  2% 0 2%;
+		padding: 0 0 0 2%;
+	}
+}
